@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="give a description about the hotel">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body class="body">
+    <header>
+        <nav>
+            <ul class="nav_con">
+                <li><a href="index.html">Cloudberry Hotels</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="event_1.html">Event 1</a></li>
+                <li><a href="event_2.html">Event 2</a></li>
+                <li><a href="booking.html"><button> Book </button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <form class="form_container">
+
+                <section>
+                    <section class="date_guests">
+                        <!-- First Section: Date Selection -->
+                        <section>
+                            <div class="dates">
+                                <h1>Dates</h1>
+
+                                <label for="check_in">Check-in Date</label>
+                                <input type="date" id="check_in" name="check_in">
+
+                                <label for="check_out">Check-out Date</label>
+                                <input type="date" id="check_out" name="check_out">
+                            </div>
+                        </section>
+
+                        <section>
+                            <div class="guest_info">
+                                <h1>Guests</h1>
+
+                                <label for="adults">Adults</label>
+                                <select name="adults" id="adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+
+                                <label for="children">children</label>
+                                <select name="children" id="children">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                        </section>
+                    </section>
+
+                    <section class="center_book">
+                        <section>
+                            <!-- contact information -->
+
+                            <h1>Your contact information</h1>
+
+                            <!-- first name -->
+                            <div>
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+
+                            <br>
+                            <!-- second name -->
+                            <div>
+                                <label for="last_name">Last name</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+
+                            <br>
+
+                            <div>
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+
+                                    <option value="Albania">Albania</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Croatia">Croatia</option>
+                                    <option value="Cyprus">Cyprus</option>
+                                    <option value="Czech Republic">Czech Republic</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Kosovo">Kosovo</option>
+                                    <option value="Latvia">Latvia</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lithuania">Lithuania</option>
+                                    <option value="Luxembourg">Luxembourg</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Moldova">Moldova</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Montenegro">Montenegro</option>
+                                    <option value="Netherlands">Netherlands</option>
+                                    <option value="North Macedonia">North Macedonia</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Romania">Romania</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Slovenia">Sri Lanka</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Slovakia">Slovakia</option>
+                                    <option value="Slovenia">Slovenia</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                            <br>
+
+
+                            <!-- title -->
+                            <div>
+                                <label for="title">Title</label>
+                                <select id="title" name="title">
+                                    <option value="Mr">Mr</option>
+                                    <option value="Mrs">Mrs</option>
+                                    <option value="Ms">Ms</option>
+                                    <option value="Miss">Miss</option>
+                                    <option value="Dr">Dr</option>
+                                </select>
+                            </div>
+
+                            <br>
+
+                            <!-- address line 1 -->
+                            <div>
+                                <label for="add_line_1">Address line 1</label>
+                                <input type="text" id="add_line_1" name="add_line_1">
+                            </div>
+
+                            <br>
+
+                            <!-- address line 2 -->
+                            <div>
+                                <label for="add_line_2">Address line 2</label>
+                                <input type="text" id="add_line_2" name="add_line_2">
+                            </div>
+
+                            <br>
+
+                            <!-- city -->
+                            <div>
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city">
+                            </div>
+
+                            <br>
+
+                            <!-- E-mail -->
+                            <div>
+                                <label for="E-mail1">E-mail Address</label>
+                                <input type="email" id="E-mail1" name="E=mail1">
+                            </div>
+
+                            <br>
+
+                            <!-- confirm E-mail -->
+                            <div>
+                                <label for="E-mail2">Confirm E-mail Address</label>
+                                <input type="email" id="E-mail2" name="E=mail2">
+                            </div>
+
+                            <br>
+
+                            <!-- mobile  number -->
+                            <div>
+                                <label for="mobile_num">Mobile number</label>
+                                <input type="tel" id="mobile_num" name="mobile_num" placeholder="+94 76 629 1881">
+                            </div>
+                        </section>
+
+
+                        <br>
+
+                        <section>
+                            <!-- payment details -->
+
+                            <h1>Payment Details</h1>
+
+                            <!-- name on card -->
+                            <div>
+                                <label for="name_on_card">Name on Card</label>
+                                <input type="text" id="name_on_card" name="name_on_card">
+                            </div>
+
+                            <br>
+
+                            <!-- card type -->
+                            <div>
+                                <label for="card_type">Card Type</label>
+                                <select id="card_type" name="card_type">
+                                    <option value="Visa">Visa</option>
+                                    <option value="Master">Master</option>
+                                    <option value="American_Express">American Express</option>
+                                </select>
+                            </div>
+
+                            <br>
+
+                            <!-- card number -->
+                            <div>
+                                <label for="card_num">Card Number</label>
+                                <input type="text" name="card_num" id="card_num" maxlength="16">
+                            </div>
+
+                            <br>
+
+                            <!-- expiration date -->
+
+                            <dev class="mobile_expiry">
+                                <!-- year -->
+                                <label for="exp_date_year">Expiration Date</label>
+                                <select name="exp_date_year" id="exp_date_year">
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2027">2028</option>
+                                </select>
+
+                                <!-- month -->
+                                <select name="exp_date_month" id="exp_date-month">
+                                    <option value="Jan">Jan</option>
+                                    <option value="Feb">Feb</option>
+                                    <option value="Mar">Mar</option>
+                                    <option value="Apr">Apr</option>
+                                    <option value="May">May</option>
+                                    <option value="Jun">Jun</option>
+                                    <option value="Jul">Jul</option>
+                                    <option value="Aug">Aug</option>
+                                    <option value="Sep">Sep</option>
+                                    <option value="Oct">Oct</option>
+                                    <option value="Nov">Nov</option>
+                                    <option value="Dec">Dec</option>
+                                </select>
+                            </dev>
+                        </section>
+
+                    </section>
+
+                    <section  class="policy">
+                        <!-- Tax & cancellation checkbox-->
+                        <div>
+                            <input type="checkbox" name="terms_select" id="terms_select">
+                            <label for="terms_select">I agree to above Tax policy and cancelation policy</label>
+                        </div>
+
+                        <!-- age checkbox-->
+                        <div>
+                            <input type="checkbox" name="age_agree" id="age_agree">
+                            <label for="age_agree">I am over 18 years of age</label>
+                        </div>
+                    </section>
+
+                    <section class="submit_container">
+                        <input class="submit" type="submit" value="CONFIRM BOOKING" id="submit">
+                    </section>
+
+                </section>
+
+            </form>
+            
+        </main>
+
+        <footer class="background_footer">
+            <!-- navigation menu -->
+            <div class="footer_divs">
+
+                <div>
+                    <h3 class="footer_heading">Explore</h3>
+                    <nav>
+                        <ul class="footer_ul">
+                            <li class="footer_li"><a class="footer_a" href="index.html">Home</a></li>
+                            <li class="footer_li"><a class="footer_a" href="adventures.html">Adventures</a></li>
+                            <li class="footer_li"><a class="footer_a" href="event_1.html">Event 1</a></li>
+                            <li class="footer_li"><a class="footer_a" href="event_2.html">Event 2</a></li>
+                            <li class="footer_li"><a class="footer_a" href="branches.html">Branches</a></li>
+                            <li class="footer_li"><a class="footer_a" href="restaurants.html">Restaurants</a></li>
+                            <li class="footer_li"><a class="footer_a" href="booking.html">Booking</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!--                iframe - colombo branch-->
+                <div>
+                    <h3 class="footer_heading"> Colombo Branch </h3>
+                    <iframe class="loc1_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7562612021147!2d79.84473462101636!3d6.919715399859826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2593b8b2c88ff%3A0x4537fcdaf592ff11!2sGalle%20Face%2C%20Colombo!5e0!3m2!1sen!2slk!4v1693418078893!5m2!1sen!2slk" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="google map location for Colombo Branch"></iframe>
+                </div>
+
+                <!--                iframe - misrissa branch-->
+                <div>
+                    <h3 class="footer_heading"> Mirissa Branch </h3>
+                    <iframe class="loc2_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.3707029315606!2d80.4561530752273!3d5.943542029630617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13fd4c636d5ff%3A0xb81456b9b41a93b2!2sMirissa%20Beach!5e0!3m2!1sen!2slk!4v1693419832109!5m2!1sen!2slk" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="google map location for Mirissa Branch"></iframe>
+                </div>
+
+                <!--                social media-->
+                <div>
+                    <h3 class="footer_heading">Follow us</h3>
+                    <nav class="social_ul">
+                        <ul>
+                            <li class="social_li"><a href="https://www.facebook.com"><img class="footer_icons" src="facebook.svg" alt="facebook logo"> </a> </li>
+                            <li class="social_li"><a href="https://www.instagram.com"><img class="footer_icons" src="instagram.svg" alt="instergram logo"> </a> </li>
+                            <li class="social_li"><a href="https://twitter.com/"><img class="footer_icons" src="twitterx.svg" alt="twitterX logo"> </a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <p class="copyright">Copyright © Cloudberry Hotels. All rights reserved.</p>
+        </footer>
+
+
+    </body>
+</html>
+
